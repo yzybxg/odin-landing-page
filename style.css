@@ -1,7 +1,11 @@
+/* body attributes */
+
 body {
-    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     margin: 0;
 }
+
+/*header attributes*/
 
 .header {
     background-color: #1F2937;
@@ -11,13 +15,13 @@ body {
     gap: 24px;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
 }
 
 .logo {
     size: 24px;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
     padding: 8px;
     flex-direction: row;
     font-weight: bold;
@@ -45,4 +49,53 @@ ul {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+/*hero attributes */
+
+.hero {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-content {
+    flex: 1;
+    flex-direction: column;
+}
+
+.hero h1, .hero p, .hero .signup-button {
+    margin: 0;
+}
+
+.hero .signup-button {
+    margin-top: 10px;
+}
+
+.hero-left, .hero-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero h1 {
+    size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.hero p {
+    size: 18px;
+    color: #E5E7EB;
+    font-family: Helvetica,Arial,sans-serif;
+    text-wrap: auto;
+}
+
+.hero .hero-image {
+    display: flex;
+    background-color: aquamarine; /* leaving it like this so it's visible*/
 }
