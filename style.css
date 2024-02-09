@@ -1,0 +1,48 @@
+body {
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
